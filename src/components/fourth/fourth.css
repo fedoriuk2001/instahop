@@ -1,0 +1,116 @@
+.fourth {
+    width: 100%;
+    height: auto;
+}
+
+.fourth-first {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+}
+
+.fourth-hashtag1 {
+    background: #F8EEEF;
+    border: 1px solid #FFE1E6;
+    border-radius: 24px;
+    width: 88px;
+    height: 40px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.fourth-hashtag2 {
+    background: #FBF2E7;
+    border: 1px solid #FAE3C7;;
+    border-radius: 24px;
+    width: 88px;
+    height: 40px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.fourth-hashtag3 {
+    background: #E8F6F5;
+    border: 1px solid #ACF4E9;
+    border-radius: 24px;
+    width: 88px;
+    height: 40px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.fourth-hashtag4 {
+    background: #F8EEEF;
+    border: 1px solid #FFE1E6;
+    border-radius: 24px;
+    width: 144px;
+    height: 40px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.fourth-first div span {
+    font-family: Avenir;
+    font-size: 18px;
+    line-height: 37px;
+    color: #222222;
+}
+
+.fourth-first div {
+    text-align: center;
+}
+
+.fourth-second {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    margin-bottom: 96px;
+}
+
+.fourth-second p {
+    font-family: Avenir;
+    font-size: 17px;
+    line-height: 28px;
+    color: #111111;
+}
+
+.fourth-second-left {
+    padding-right: 15px;
+    width: 450px;
+}
+
+.fourth-second-right {
+    padding-left: 15px;
+    width: 450px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .fourth-second {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 24px;
+    }
+
+    .fourth-first {
+        grid-template-columns: auto auto;
+        grid-row-gap: 16px;
+    }
+
+    .fourth-second-left {
+        padding-right: 0;
+        width: 345px;
+    }
+    
+    .fourth-second-right {
+        padding-left: 0;
+        width: 345px;
+        margin-top: 12px;
+    }
+
+    .fourth-hashtag1 {
+        margin-left: 40px;
+    }
+    .fourth-hashtag4 {
+        margin-left: -30px;
+    }
+}

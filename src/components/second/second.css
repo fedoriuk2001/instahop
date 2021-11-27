@@ -1,0 +1,45 @@
+.second {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.second-title {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #111111;
+    margin-top: 40px;
+}
+
+.second-subtitle {
+    font-family: Avenir;
+    font-size: 20px;
+    line-height: 23px;
+    color: #666666;
+    margin-top: 12px;
+}
+
+.second-address {
+    font-family: Avenir;
+    font-size: 18px;
+    line-height: 21px;
+    color: #111111;
+    margin-top: 12px;
+}
+
+.second-address img {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: -23px;
+}
+
+@media only screen and (max-width: 1200px) {
+    
+}

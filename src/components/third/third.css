@@ -1,0 +1,142 @@
+.third {
+    height: auto;
+    width: 100%;
+}
+
+.third-center {
+    background-color: #F4FFFE;
+    width: 1140px;
+    height: 466px;
+    margin: 0 auto 96px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 6px 4px #EEEEEE;
+    border-radius: 8px;
+}
+
+.third-left {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.third-first-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.third-secondpart {
+    padding-left: 118px;
+    padding-right: 27px;
+}
+
+.third-links {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #111111;
+}
+
+.third-second-line {
+    display: flex;
+
+}
+
+.third-second-second {
+    width: 64px;
+    height: 62px;
+    background-color: #B3EEEA;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 25px;
+}
+
+.third-second-second-49 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 62px;
+    color: #385856;
+}
+
+.third-second-line {
+    padding-left: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-links-img {
+    margin-bottom: -5px;
+    padding-right: 5px;
+}
+
+.third-second-first-first {
+    display: grid;
+    width: 448px;
+    height: 62px;
+    grid-template-columns: auto auto;
+    grid-row-gap: 14px;
+}
+
+.paddingleft19 {
+    padding-left: 19px;
+}
+
+.paddingleft22 {
+    padding-left: 22px;
+}
+
+.third-title {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    color: #111111;
+}
+
+.third-text {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 27px;
+    color: #333333;
+    margin-top: 16px;
+}
+
+.third-third-line {
+    height: 110px;
+    width: 450px;
+    margin-top: 65px;
+    padding-left: 26px;
+}
+
+.third-right {
+    position: relative;
+    width: 506px;
+    height: 100%;
+    background-color: brown;
+    background-image: url('../../img/images/third/map.png');
+}
+
+.third-right img {
+    float: right;
+    margin-right: -25px;
+    margin-top: 40px;
+}
+
+.third-routehelp {
+    width: 442px;
+    height: 140px;
+    background: #FFFFFF;
+    box-shadow: 0px 11px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+

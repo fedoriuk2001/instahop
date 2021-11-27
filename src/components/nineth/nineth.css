@@ -1,0 +1,70 @@
+.nineth {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 120px;
+}
+
+.nineth-block {
+    width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 56px;
+    background: linear-gradient(89.85deg, #FFA840 -13.6%, #EB6D7F 147.33%);
+}
+
+.nineth-blockinside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nineth-blockinside button, .nineth-blockinside img {
+    margin: 0 16px;
+}
+
+.nineth-blockinside button {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(122, 122, 122, 0.31);
+    border-radius: 40px;
+    border: 0;
+    padding: 24px 54px;
+    transition: all .5s;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nineth-blockinside button:hover {
+    background: #FBF1E7;
+    box-shadow: 0px 0px 8px rgba(108, 108, 108, 0.11);
+}
+
+.nineth-blockinside button span {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    background: linear-gradient(89.85deg, #FFA840 -13.6%, #EB6D7F 147.33%);;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+@media only screen and (max-width: 1200px) {
+    .nineth {
+        margin-bottom: 96px;
+    }
+
+    .nineth-blockinside button {
+        padding: 22px 25px;
+    }
+
+    .nineth-block {
+        width: 100%;
+    }
+
+    .nineth-blockinside img {
+        display: none;
+    }
+}
