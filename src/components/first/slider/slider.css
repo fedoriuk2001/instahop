@@ -26,10 +26,12 @@
 
 .slider__btn-right img {
     margin-top: 80px;
+    cursor: pointer;
 }
 
 .slider__btn-left img {
     margin-top: 80px;
+    cursor: pointer;
 }
 
 .slider-feature {

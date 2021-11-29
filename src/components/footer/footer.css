@@ -75,6 +75,10 @@
     cursor: pointer;
 }
 
+.cursordefault {
+    cursor: default!important;
+}
+
 .footer__links .footer__title, .footer__right .footer__title{
     margin-bottom: 20px;
 }
@@ -106,6 +110,7 @@
 
 .footer__fourthdiv .footer__images .footer__img {
     margin-right: 3px; 
+    cursor: pointer;
 }
 
 .footer__fourthdiv .footer__fourthdiv__link {
@@ -117,6 +122,11 @@
     font-weight: 800;
     font-size: 18px;
     word-spacing: 2px;
+    cursor: default;
+}
+
+.footer__circlelink {
+    cursor: pointer;
 }
 
 /* Footer Fourth Div */
@@ -127,6 +137,10 @@
     font-weight: 500;
     font-size: 14px;
     color: #FFFFFF;
+}
+
+.footer__downdiv__link {
+    cursor: pointer;
 }
 
 .footer__downdiv__list {
@@ -140,10 +154,15 @@
 
 .footer__downdiv .footer__downdiv__span {
     margin-top: 16px;
+    cursor: default;
 }
 
-.footer__downdiv .footer__downdiv__list {
+.footer__downdiv .footer__downdiv__list, .footer__downdiv__span {
     margin-top: 16px;
+}
+
+.footer__downdiv__span {
+    position: absolute;
 }
 
 .footer__circlelist {
@@ -256,6 +275,10 @@
 
     .footer__title {
         display: block;
+    }
+    
+    .footer__downdiv__span {
+        position: relative;
     }
 
     .footer__element__link__title, .footer__arrow {

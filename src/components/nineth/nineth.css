@@ -67,4 +67,8 @@
     .nineth-blockinside img {
         display: none;
     }
+
+    .nineth-blockinside button span {
+        font-size: 22px;
+    }
 }

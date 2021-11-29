@@ -20,7 +20,6 @@ const App = () => {
 
     <Header />
     <First />
-    <Second />
     <Third />
     <Fourth />
     <Fifth />

@@ -41,5 +41,24 @@
 }
 
 @media only screen and (max-width: 1200px) {
-    
+    .second-address {
+        margin-left: 38px;
+    }
+
+    .second {
+        align-items: flex-start;
+        margin-bottom: 32px;
+    }
+
+    .second-subtitle, .second-title {
+        margin-left: 15px;
+    }
+
+    .second-title {
+        margin-top: 9px;
+    }
+
+    .second-subtitle  {
+        margin-top: 16px;
+    }
 }

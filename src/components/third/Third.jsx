@@ -1,6 +1,7 @@
 import React from 'react'
 import './third.css'
 import Guides from "../../img/images/third/guides.png"
+import GuidesSmall from "../../img/images/third/guidessm.png"
 import Emojis from "../../img/images/third/emoji_group.png"
 import Lighthing from "../../img/images/third/lightning1.png"
 import Dollar from "../../img/images/third/dollar1.png"
@@ -18,7 +19,8 @@ const Third = () => {
             <div className="third-center">
                 <div className="third-left">
                     <div className="third-first-line">
-                        <img src={Guides} alt="Guides"/>
+                        <img className="third-guide" src={Guides} alt="Guides"/>
+                        <img className="third-guidesmall" src={GuidesSmall} alt="Guides_small"/>
                         <img className="third-secondpart" src={Emojis} alt="Emojis"/>
                     </div>
                     <div className="third-second-line">
@@ -36,7 +38,9 @@ const Third = () => {
                     </div>
                     <div className="third-third-line">
                         <p className="third-title">We care about your safety</p>
-                        <p className="third-text">We care about your safety.  Our hosts will be wearing face masks while in transportation and in all indoor facilities. Their vehicles are sanitized daily. Please pay attention to public and local Covid regulations.</p>
+                        <p className="third-text third-guide">We care about your safety.  Our hosts will be wearing face masks while in transportation and in all indoor facilities. Their vehicles are sanitized daily. Please pay attention to public and local Covid regulations.</p>
+                        <p className="third-text third-guidesmall">The Skyride Gondola is your ticketto the top of Grouse Mountain where year-round adventures await you. I will meet you in front of Starbucks at the bottom of Grouse and give you your discounted tickets. You can explorethe mountain with the tickets.</p>
+
                     </div>
                 </div>
                 <div className="third-right">

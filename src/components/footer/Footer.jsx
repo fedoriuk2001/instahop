@@ -25,7 +25,7 @@ const Footer = () => {
                     <div className="footerdiv footermobilelist footer__seconddiv">
                         <ul className="footer__links">
                             <li className="footer__element footer__title">
-                                <a className="footer__element__link__title footer__element__link__titledesktop">Help & Support</a>
+                                <a className="footer__element__link__title footer__element__link__titledesktop cursordefault">Help & Support</a>
                                 <img className="footer__arrow" src={Arrow} alt="downarrow"/>
                             </li>
                            
@@ -46,7 +46,7 @@ const Footer = () => {
                     <div className="footerdiv footermobilelist footer__thirddiv">
                         <ul className="footer__right">
                             <li className="footer__element footer__title">
-                                <a className="footer__element__link__title footer__element__link__titledesktop">Company</a>
+                                <a className="footer__element__link__title footer__element__link__titledesktop cursordefault">Company</a>
                                 <img className="footer__arrow" src={Arrow} alt="downarrow"/>
                             </li>
                             <li className="footer__element footer__second__part">

@@ -161,11 +161,43 @@
     }
 
     .seventh-firstcol, .seventh-secondcol {
-        width: 250px;
+        width: 345px;
         margin: 0;
     }
 
     .seventh-element {
        align-self: flex-start;
+    }
+
+    .seventh-orange1 {
+        width: 285px;
+    }
+
+    .seventh-gray1 {
+        width: 14px;
+    }
+
+    .seventh-orange2 {
+        width: 257px;
+    }
+
+    .seventh-gray2 {
+        width: 42px;
+    }
+
+    .seventh-orange3 {
+        width: 151px;
+    }
+
+    .seventh-gray3 {
+        width: 148px;
+    }
+
+    .seventh-orange4 {
+        width: 277px;
+    }
+
+    .seventh-gray4 {
+        width: 21px;
     }
 }
